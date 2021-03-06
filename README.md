@@ -113,4 +113,4 @@ Um cliente pode criar uma conta e efetuar uma reserva
 
 ### DB UML
 
-![](./hotelUML.png)
+![](./DB/hotelUML.png)
