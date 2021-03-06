@@ -1,0 +1,45 @@
+USE master
+
+GO
+
+DROP DATABASE Hotel
+
+GO
+
+CREATE DATABASE Hotel
+
+GO
+
+USE Hotel
+
+CREATE TABLE Clientes{
+  id INT NOT NULL AUTO_INCREMENT,
+};
+
+CREATE TABLE Funcionarios{
+  id INT NOT NULL AUTO_INCREMENT,
+};
+
+CREATE TABLE QuartosIndisponiveis{
+  id INT NOT NULL AUTO_INCREMENT,
+};
+
+CREATE TABLE Pacotes{
+  id INT NOT NULL AUTO_INCREMENT,
+};
+
+CREATE TABLE PacotesEmReservas{
+  id INT NOT NULL AUTO_INCREMENT,
+};
+
+CREATE TABLE Reservas{
+  id INT NOT NULL AUTO_INCREMENT,
+};
+
+CREATE TABLE RangesQuartos{
+  id INT NOT NULL AUTO_INCREMENT,
+};
+
+CREATE TABLE CategoriaQuarto{
+  id INT NOT NULL AUTO_INCREMENT,
+};
