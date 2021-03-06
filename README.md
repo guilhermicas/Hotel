@@ -21,7 +21,7 @@ Funcionalidades funcionario e Administrador:
     - [ ] pode efetuar registo de um cliente
           INSERT INTO Clientes (idFuncionario, nome, email, NIF, telefone) VALUES ()
     - [ ] Lookup de clientes para reutilizar conta ja previamente inserida caso seja o caso ou para atualizar os dados
-    - [ ] Escolha do range de datas para reserva (pode se forçar uma range além da definida nas configuracoes, mas é necessessário confirmação da ação)(funcionalidade imbutida)
+    - [ ] Escolha do range de datas para reserva (pode se forçar uma range além da definida nas configuracoes, mas é necessário confirmação da ação)(funcionalidade imbutida)
     - [ ] Escolha de categoria da reserva
           INSERT INTO Reservas (idCliente, idFuncionario, numeroQuarto, dataInicial, dataFinal, cancelada) VALUES ()
     - [ ] Escolha opcional de pacotes extra (almoço, wifi, wtv..)
@@ -113,4 +113,4 @@ Um cliente pode criar uma conta e efetuar uma reserva
 
 ### DB UML
 
-![UML da base de dados](./hotelUML.png)
+![](./hotelUML.png)
